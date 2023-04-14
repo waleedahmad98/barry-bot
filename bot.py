@@ -5,7 +5,7 @@ from discord.ext import commands
 import random
 
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = "Nzk2NzEyNTExMjA2NDU3MzY0.X_b6WA.fNXHMc14oGwDt0CWr9dELUQXuDA"
 
 bot = commands.Bot(command_prefix='$')
 words = ['BORK!', 'WOOF!', 'BORK BORK!', 'WOOF WOOF!', '*wags tail*', 'BARK!', '🦴', 'WOOF 🐶', '🐾🐶🐾']
